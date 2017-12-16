@@ -4,5 +4,6 @@ def my_select(array)
   while i<array.length
     if yield(array[i])
       array2<<array[i]
+      i+=1
   end
 end
